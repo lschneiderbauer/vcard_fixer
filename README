@@ -1,0 +1,12 @@
+Adds the per specification needed 'FN'-property if it's not existing. The string is generated from the 'N'-property.
+
+* Example
+
+$ cd ./dir_with_seperated_vcf_file_in_it/
+$ ./fix_vcard.rb ./card1.vcf
+
+or more files at once
+$ ./fix_vcard.rb ./card2.vcf ./card3.vcf
+
+or if you want to fix all files in the given directory:
+$ ./fix_vcard.rb `./all_vcards.rb`
